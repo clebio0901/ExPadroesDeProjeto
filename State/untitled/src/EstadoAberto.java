@@ -3,7 +3,7 @@ public class EstadoAberto implements EstadoChamado {
     @Override
     public void iniciarAtendimento(Chamado chamado){
         System.out.println("Iniciando o atendimento do Chamado.");
-        chamado.setEstadoAtual(new EstadoEmAtendimento()); // Faltava essa transição!
+        chamado.setEstadoAtual(new EstadoEmAtendimento()); 
     }
 
     @Override
