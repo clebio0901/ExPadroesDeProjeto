@@ -11,7 +11,7 @@ public class Chamado {
         this.solicitante = solicitante;
     }
 
-    // Veja como os métodos não recebem parâmetros agora!
+    
     public void iniciarAtendimento() {
         estadoAtual.iniciarAtendimento(this);
     }
