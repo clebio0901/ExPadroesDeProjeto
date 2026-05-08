@@ -8,7 +8,7 @@ public class Main {
         chamado1.resolver();
 
         System.out.println("\n=== Iniciar atendimento ===");
-        chamado1.iniciarAtendimento(); // Agora chama sem passar 'chamado1' dentro!
+        chamado1.iniciarAtendimento(); 
 
         System.out.println("\n=== Colocar o chamado como aguardando cliente ===");
         chamado1.aguardarCliente();
